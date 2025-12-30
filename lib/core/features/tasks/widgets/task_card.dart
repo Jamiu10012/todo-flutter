@@ -70,10 +70,10 @@ Time: ${task.startTime} - ${task.endTime}
 Please confirm this task:
 
 🟢 ACCEPT
-http://192.168.247.30/#/task-confirm?taskId=${task.id}&action=accept
+https://todo-flutter-red.vercel.app/#/task-confirm?taskId=${task.id}&action=accept
 
 🔴 REJECT
-http://192.168.247.30/#/task-confirm?taskId=${task.id}&action=reject
+https://todo-flutter-red.vercel.app/#/task-confirm?taskId=${task.id}&action=reject
 ''';
 
   final uri = Uri.parse(

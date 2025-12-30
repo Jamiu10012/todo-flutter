@@ -22,7 +22,7 @@ class _AdminTaskLocationsPageState extends State<AdminTaskLocationsPage> {
   Future<void> fetchLocations() async {
     try {
       final res = await http.get(
-        Uri.parse("http://localhost:8080/admin/task-locations"),
+        Uri.parse("https://todo-golang-qm9j.onrender.com/admin/task-locations"),
       );
 
       if (res.statusCode == 200) {

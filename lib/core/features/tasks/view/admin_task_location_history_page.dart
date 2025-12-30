@@ -27,7 +27,7 @@ class _AdminTaskLocationHistoryPageState
     try {
       final res = await http.get(
         Uri.parse(
-          "http://localhost:8080/admin/tasks/${widget.taskId}/locations",
+          "https://todo-golang-qm9j.onrender.com/admin/tasks/${widget.taskId}/locations",
         ),
       );
 
